@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Video Results</title>
+</head>
+<body>
+	<h1>Video Results</h1>
+	<ul>
+	{% for result in results %}
+		<li><iframe width="560" height="315" src="{{ result }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
+	{% endfor %}
+	</ul>
+</body>
+</html>

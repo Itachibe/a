@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Search App</title>
+</head>
+<body>
+	<form action="/search" method="post">
+		<label for="query">Search Query:</label>
+		<input type="text" name="query" id="query">
+		<br>
+		<label for="category">Search Category:</label>
+		<select name="category" id="category">
+			<option value="general">General</option>
+			<option value="image">Image</option>
+			<option value="video">Video</option>
+			<option value="news">News</option>
+			<option value="map">Map</option>
+			<option value="book">Book</option>
+		</select>
+		<br>
+		<input type="submit" value="Search">
+	</form>
+</body>
+</html>

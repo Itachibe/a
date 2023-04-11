@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Image Results</title>
+</head>
+<body>
+	<h1>Image Results</h1>
+	<ul>
+	{% for result in results %}
+		<li><img src="{{ result }}"></li>
+	{% endfor %}
+	</ul>
+</body>
+</html>
